@@ -40,7 +40,7 @@ export default function MasterCicerone() {
                 <h5 className='header-line'>Other Levels</h5>
                 <CardGroup className='container mb-5'>
                     <Card>
-                        <CardImg top width='100%' src={bottle} alt='serving beer' />
+                        <CardImg top width='100%' src={bottle} alt='beer bottles' />
                         <CardBody>
                             <CardTitle className='text-center'>Certified Beer Server</CardTitle>
                             <CardSubtitle>Level 1</CardSubtitle>

@@ -22,7 +22,7 @@ export default function StudyMaterial() {
             </h3>
             <h6>Select Level:</h6>
             <Tabs>
-                <TabList id='tabs'>
+                <TabList>
                     <Tab>Beer Server</Tab>
                     <Tab>Cicerone</Tab>
                     <Tab>Advanced Cicerone</Tab>
@@ -36,7 +36,7 @@ export default function StudyMaterial() {
                     <Progress animated striped color='info' value={10} />
                     <CardGroup className='container  mb-5'>
                         <Card className='m-2'>
-                            <CardImg top width='100%' src={bottle} alt='serving beer' />
+                            <CardImg top width='100%' src={bottle} alt='beer bottles' />
                             <CardBody>
                                 <CardTitle className='text-center'>Beer Server Quiz</CardTitle>
                                 <CardSubtitle>Level 1</CardSubtitle>
@@ -54,7 +54,7 @@ export default function StudyMaterial() {
                             </CardBody>
                         </Card>
                         <Card className='m-2'>
-                            <CardImg top width='100%' src={femaleServer} alt='beer tasting' />
+                            <CardImg top width='100%' src={femaleServer} alt='female beer server' />
                             <CardBody>
                                 <CardTitle className='text-center'>Beer Server Manual</CardTitle>
                                 <CardSubtitle>Level 1</CardSubtitle>
@@ -80,7 +80,7 @@ export default function StudyMaterial() {
                             </CardBody>
                         </Card>
                         <Card className='m-2'>
-                            <CardImg top width='100%' src={tasting} alt='pouring beer' />
+                            <CardImg top width='100%' src={tasting} alt='tasting beer' />
                             <CardBody>
                                 <CardTitle className='text-center'>Cicerone Flashcards</CardTitle>
                                 <CardSubtitle>Level 2</CardSubtitle>
@@ -89,7 +89,7 @@ export default function StudyMaterial() {
                             </CardBody>
                         </Card>
                         <Card className='m-2'>
-                            <CardImg top width='100%' src={pouring} alt='beer pairing' />
+                            <CardImg top width='100%' src={pouring} alt='pouring pairing' />
                             <CardBody>
                                 <CardTitle className='text-center'>Cicerone Manual</CardTitle>
                                 <CardSubtitle>Level 2</CardSubtitle>
@@ -106,7 +106,7 @@ export default function StudyMaterial() {
                     <Progress animated striped color='info' value={0} />
                     <CardGroup className='container  mb-5'>
                         <Card className='m-2'>
-                            <CardImg top width='100%' src={pairing} alt='pouring beer' />
+                            <CardImg top width='100%' src={pairing} alt='pairing beer' />
                             <CardBody>
                                 <CardTitle className='text-center'>Advanced Cicerone Quiz</CardTitle>
                                 <CardSubtitle>Level 3</CardSubtitle>
@@ -115,7 +115,7 @@ export default function StudyMaterial() {
                             </CardBody>
                         </Card>
                         <Card className='m-2'>
-                            <CardImg top width='100%' src={beer} alt='serving beer' />
+                            <CardImg top width='100%' src={beer} alt='glases of beer' />
                             <CardBody>
                                 <CardTitle className='text-center'>Advanced Cicerone Flashcards</CardTitle>
                                 <CardSubtitle>Level 3</CardSubtitle>
