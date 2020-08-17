@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/cicerone-ui/static/css/main.f9a50ced.chunk.css",
+    "main.js": "/cicerone-ui/static/js/main.c8cdd537.chunk.js",
+    "main.js.map": "/cicerone-ui/static/js/main.c8cdd537.chunk.js.map",
+    "runtime-main.js": "/cicerone-ui/static/js/runtime-main.1822d019.js",
+    "runtime-main.js.map": "/cicerone-ui/static/js/runtime-main.1822d019.js.map",
+    "static/css/2.b4e040ed.chunk.css": "/cicerone-ui/static/css/2.b4e040ed.chunk.css",
+    "static/js/2.513391e2.chunk.js": "/cicerone-ui/static/js/2.513391e2.chunk.js",
+    "static/js/2.513391e2.chunk.js.map": "/cicerone-ui/static/js/2.513391e2.chunk.js.map",
+    "index.html": "/cicerone-ui/index.html",
+    "precache-manifest.fe1f73f5851e3463b7eea46497b4c707.js": "/cicerone-ui/precache-manifest.fe1f73f5851e3463b7eea46497b4c707.js",
+    "service-worker.js": "/cicerone-ui/service-worker.js",
+    "static/css/2.b4e040ed.chunk.css.map": "/cicerone-ui/static/css/2.b4e040ed.chunk.css.map",
+    "static/css/main.f9a50ced.chunk.css.map": "/cicerone-ui/static/css/main.f9a50ced.chunk.css.map",
+    "static/js/2.513391e2.chunk.js.LICENSE.txt": "/cicerone-ui/static/js/2.513391e2.chunk.js.LICENSE.txt",
+    "static/media/barley.jpg": "/cicerone-ui/static/media/barley.c4cbb566.jpg",
+    "static/media/beer.jpg": "/cicerone-ui/static/media/beer.6dfb274c.jpg",
+    "static/media/App.css": "/cicerone-ui/static/media/beerGlass.85ebe3c1.jpg",
+    "static/media/beerOpener.jpg": "/cicerone-ui/static/media/beerOpener.855d6ee9.jpg",
+    "static/media/femaleServer.jpg": "/cicerone-ui/static/media/femaleServer.64771251.jpg",
+    "static/media/font-awesome.css": "/cicerone-ui/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/hops.jpg": "/cicerone-ui/static/media/hops.bfeaa126.jpg",
+    "static/media/pairing.jpg": "/cicerone-ui/static/media/pairing.43dc64ef.jpg",
+    "static/media/pouring.jpg": "/cicerone-ui/static/media/pouring.a157c5bc.jpg",
+    "static/media/servingBeer.jpg": "/cicerone-ui/static/media/servingBeer.1f70c11e.jpg",
+    "static/media/taps.jpg": "/cicerone-ui/static/media/taps.8f226c42.jpg",
+    "static/media/tasting.jpg": "/cicerone-ui/static/media/tasting.f2431518.jpg",
+    "static/media/tastingTable.jpg": "/cicerone-ui/static/media/tastingTable.0ff45e9b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1822d019.js",
+    "static/css/2.b4e040ed.chunk.css",
+    "static/js/2.513391e2.chunk.js",
+    "static/css/main.f9a50ced.chunk.css",
+    "static/js/main.c8cdd537.chunk.js"
+  ]
+}
