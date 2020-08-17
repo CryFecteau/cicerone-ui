@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb8ae008fd43fb74b6b0849b5da66181",
+    "revision": "c8749a48d2f78c7475c12079b458fc44",
     "url": "/cicerone-ui/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cicerone-ui/static/css/2.b4e040ed.chunk.css"
   },
   {
-    "revision": "b631bddc4402eef173ae",
+    "revision": "299cf1d4f86b28d59a35",
     "url": "/cicerone-ui/static/css/main.d1ed766f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cicerone-ui/static/js/2.513391e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b631bddc4402eef173ae",
-    "url": "/cicerone-ui/static/js/main.f198f63b.chunk.js"
+    "revision": "299cf1d4f86b28d59a35",
+    "url": "/cicerone-ui/static/js/main.90fc23fc.chunk.js"
   },
   {
     "revision": "bd2f3afba48cda1988e4",

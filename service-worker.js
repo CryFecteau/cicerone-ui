@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cicerone-ui/precache-manifest.b8dc6c0039b27de5ae0652fa151b7178.js"
+  "/cicerone-ui/precache-manifest.996dbc3713e99818d7e7b317b8f82e27.js"
 );
 
 self.addEventListener('message', (event) => {

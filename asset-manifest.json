@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cicerone-ui/static/css/main.d1ed766f.chunk.css",
-    "main.js": "/cicerone-ui/static/js/main.f198f63b.chunk.js",
-    "main.js.map": "/cicerone-ui/static/js/main.f198f63b.chunk.js.map",
+    "main.js": "/cicerone-ui/static/js/main.90fc23fc.chunk.js",
+    "main.js.map": "/cicerone-ui/static/js/main.90fc23fc.chunk.js.map",
     "runtime-main.js": "/cicerone-ui/static/js/runtime-main.1822d019.js",
     "runtime-main.js.map": "/cicerone-ui/static/js/runtime-main.1822d019.js.map",
     "static/css/2.b4e040ed.chunk.css": "/cicerone-ui/static/css/2.b4e040ed.chunk.css",
     "static/js/2.513391e2.chunk.js": "/cicerone-ui/static/js/2.513391e2.chunk.js",
     "static/js/2.513391e2.chunk.js.map": "/cicerone-ui/static/js/2.513391e2.chunk.js.map",
     "index.html": "/cicerone-ui/index.html",
-    "precache-manifest.b8dc6c0039b27de5ae0652fa151b7178.js": "/cicerone-ui/precache-manifest.b8dc6c0039b27de5ae0652fa151b7178.js",
+    "precache-manifest.996dbc3713e99818d7e7b317b8f82e27.js": "/cicerone-ui/precache-manifest.996dbc3713e99818d7e7b317b8f82e27.js",
     "service-worker.js": "/cicerone-ui/service-worker.js",
     "static/css/2.b4e040ed.chunk.css.map": "/cicerone-ui/static/css/2.b4e040ed.chunk.css.map",
     "static/css/main.d1ed766f.chunk.css.map": "/cicerone-ui/static/css/main.d1ed766f.chunk.css.map",
@@ -33,6 +33,6 @@
     "static/css/2.b4e040ed.chunk.css",
     "static/js/2.513391e2.chunk.js",
     "static/css/main.d1ed766f.chunk.css",
-    "static/js/main.f198f63b.chunk.js"
+    "static/js/main.90fc23fc.chunk.js"
   ]
 }
