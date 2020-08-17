@@ -11,9 +11,9 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <React.Fragment>
-            <div className="container">
+            <div className='container mt-5 mb-5'>
                 <h5 className='header-line'>Why Cicerone?</h5>
-                <p className='text-center'>Becoming a Cicerone is more then just tasting beer and knowing what hop or malt that were used. It is the ability to give the best quality beer and experince at every service occasion.</p>
+                <p className='text-center'>Becoming a Cicerone is more then just tasting beer and knowing what hop or malt was used. It is the ability to give the best quality beer and experince at every service occasion.</p>
             </div>
             <div className='container'>
                 <h5 className='header-line'>Levels of Cicerone</h5>
@@ -32,7 +32,7 @@ function Home() {
                         <CardBody>
                             <CardTitle className='text-center'>Certified Cicerone</CardTitle>
                             <CardSubtitle>Level 2</CardSubtitle>
-                            <CardText>Those who pursue a career in beer learn from many different sources and soon accumulate knowledge that sets them apart from those on the "customer" side of the bar.</CardText>
+                            <CardText>Those who pursue a career in beer learn from many different sources and soon accumulate knowledge that sets them apart from those on the 'customer' side of the bar.</CardText>
                             <Button outline color='warning'><Link to='cicerone'>Learn More</Link></Button>
                         </CardBody>
                     </Card>

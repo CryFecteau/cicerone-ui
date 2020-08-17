@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import Home from './Home';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import BeerServer from './BeerServer';
 import About from './About';
 import AdvancedCicerone from './AdvancedCicerone';
@@ -10,6 +10,7 @@ import Cicerone from './Cicerone';
 import Contact from './Contact';
 import MasterCicerone from './MasterCicerone';
 import StudyMaterial from './StudyMaterial';
+import Content from './Content';
 
 class Main extends Component {
     render() {
@@ -24,6 +25,7 @@ class Main extends Component {
                         <Route path='/beer-server' component={BeerServer} />
                         <Route path='/cicerone' component={Cicerone} />
                         <Route path='/contact-us' component={Contact} />
+                        <Route path='/content' component={Content} />
                         <Route path='/master-cicerone' component={MasterCicerone} />
                         <Route path='/study-material' component={StudyMaterial} />
                     </Switch>
