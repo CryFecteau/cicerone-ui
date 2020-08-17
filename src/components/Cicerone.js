@@ -11,8 +11,8 @@ import { Link } from 'react-router-dom';
 export default function Cicerone() {
     return (
         <React.Fragment>
-            <div className='container'>
-                <h3 className='header-line mt-4'>
+            <div className='container mt-4'>
+                <h3 className='header-line'>
                     Cicerone
                 </h3>
                 <p className='text-center'>Level 2</p>
