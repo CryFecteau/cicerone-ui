@@ -22,7 +22,7 @@ export default function StudyMaterial() {
             </h3>
             <h6>Select Level:</h6>
             <Tabs>
-                <TabList >
+                <TabList id='tabs'>
                     <Tab>Beer Server</Tab>
                     <Tab>Cicerone</Tab>
                     <Tab>Advanced Cicerone</Tab>

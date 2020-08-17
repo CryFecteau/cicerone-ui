@@ -22,8 +22,7 @@ export default function Cicerone() {
                 <Card className='mt-4'>
                     <CardImg className='img' src={hops} alt='beer hops' />
                     <CardBody>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Velit dignissim sodales ut eu. Laoreet non curabitur gravida arcu ac tortor. Ac auctor augue mauris augue neque gravida in fermentum et.</CardText>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Velit dignissim sodales ut eu. Laoreet non curabitur gravida arcu ac tortor. Ac auctor augue mauris augue neque gravida in fermentum et.</CardText>
+                        <CardText>Certified Cicerone is the second level of certification. Those who achieve this certification have a solid and well-rounded knowledge of beer and beer service as well as basic competence in assessing beer quality and identity by taste. The four-hour exam includes written, tasting, and demonstration portions. It is given more than 100 times each year at sites across the US and Canada and also at other international sites.</CardText>
                     </CardBody>
                 </Card>
             </div>
@@ -38,7 +37,7 @@ export default function Cicerone() {
             </div>
             <div className='container'>
                 <h5 className='header-line'>Other Levels</h5>
-                <CardGroup className='container'>
+                <CardGroup className='container md-5'>
                     <Card>
                         <CardImg top width='100%' src={servingBeer} alt='serving beer' />
                         <CardBody>

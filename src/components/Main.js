@@ -19,7 +19,7 @@ class Main extends Component {
                 <div>
                     <Header />
                     <Switch>
-                        <Route path='/' exact component={Home} />
+                        <Route path='/cicerone-ui' exact component={Home} />
                         <Route path='/about-us' component={About} />
                         <Route path='/advanced-cicerone' component={AdvancedCicerone} />
                         <Route path='/beer-server' component={BeerServer} />

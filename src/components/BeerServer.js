@@ -22,8 +22,7 @@ export default function BeerServer() {
                 <Card className='mt-4'>
                     <CardImg className='img' src={beer} alt='logo' />
                     <CardBody>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Velit dignissim sodales ut eu. Laoreet non curabitur gravida arcu ac tortor. Ac auctor augue mauris augue neque gravida in fermentum et.</CardText>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Velit dignissim sodales ut eu. Laoreet non curabitur gravida arcu ac tortor. Ac auctor augue mauris augue neque gravida in fermentum et.</CardText>
+                        <CardText>Certified Beer Servers become conversant in the language of beer, including key flavor words and core beer styles,  master the details of beer service, including glass preparation and proper pouring of both draft and bottled beers, and Learn the three most common ways the flavor of beer can be ruined after it leaves the brewery and what must be done to prevent this from happening </CardText>
                     </CardBody>
                 </Card>
             </div>
@@ -38,7 +37,7 @@ export default function BeerServer() {
             </div>
             <div className='container'>
                 <h5 className='header-line'>Other Levels</h5>
-                <CardGroup className='container'>
+                <CardGroup className='container md-5'>
                     <Card>
                         <CardImg top width='100%' src={servingBeer} alt='serving beer' />
                         <CardBody>

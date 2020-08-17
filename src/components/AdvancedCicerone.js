@@ -20,8 +20,7 @@ export default function AdvancedCicerone() {
                 <Card className='mt-4'>
                     <CardImg className='img' src={taps} alt='beer hops' />
                     <CardBody>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Velit dignissim sodales ut eu. Laoreet non curabitur gravida arcu ac tortor. Ac auctor augue mauris augue neque gravida in fermentum et.</CardText>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Velit dignissim sodales ut eu. Laoreet non curabitur gravida arcu ac tortor. Ac auctor augue mauris augue neque gravida in fermentum et.</CardText>
+                        <CardText>Those who achieve this certification possess expert knowledge of beer and excellent tasting ability. Such knowledge generally results from several years of additional study and tasting after achieving Certified Cicerone®. Well-prepared candidates will have excellent and extensive style knowledge, hands-on experience managing beer service, direct familiarity with brewing process and ingredients, and frequent and repeated experience in beer and food pairing.</CardText>
                     </CardBody>
                 </Card>
             </div>
@@ -36,7 +35,7 @@ export default function AdvancedCicerone() {
             </div>
             <div className='container'>
                 <h5 className='header-line'>Other Levels</h5>
-                <CardGroup className='container'>
+                <CardGroup className='container mb-5'>
                     <Card>
                         <CardImg top width='100%' src={bottle} alt='serving beer' />
                         <CardBody>

@@ -23,8 +23,7 @@ export default function MasterCicerone() {
                 <Card className='mt-4'>
                     <CardImg className='img' src={taps} alt='beer hops' />
                     <CardBody>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Velit dignissim sodales ut eu. Laoreet non curabitur gravida arcu ac tortor. Ac auctor augue mauris augue neque gravida in fermentum et.</CardText>
-                        <CardText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Velit dignissim sodales ut eu. Laoreet non curabitur gravida arcu ac tortor. Ac auctor augue mauris augue neque gravida in fermentum et.</CardText>
+                        <CardText>The Master Cicerone exam challenges individuals to master every technical and aesthetic aspect of beer. Candidates must converse with professional brewers and chefs as a peer, demonstrate the tasting ability of a seasoned quality control panel member and yet also speak with consumers using easy-to-understand but vividly descriptive language. Those who possess these skills serve the industry as consultants, educators, and knowledge leaders in various organizations.</CardText>
                     </CardBody>
                 </Card>
             </div>
@@ -39,7 +38,7 @@ export default function MasterCicerone() {
             </div>
             <div className='container'>
                 <h5 className='header-line'>Other Levels</h5>
-                <CardGroup className='container'>
+                <CardGroup className='container mb-5'>
                     <Card>
                         <CardImg top width='100%' src={bottle} alt='serving beer' />
                         <CardBody>

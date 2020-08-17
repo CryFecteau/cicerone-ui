@@ -12,12 +12,16 @@ function Home() {
     return (
         <React.Fragment>
             <div className='container mt-5 mb-5'>
-                <h5 className='header-line'>Why Cicerone?</h5>
+                <h5 className='header-line'>What is a Cicerone?</h5>
+                <p className='text-center'>The word Cicerone (sis-uh-rohn) designates hospitality professionals with proven experience in selecting, acquiring and serving today's wide range of beers.</p>
+            </div>
+            <div className='container mt-5 mb-5'>
+                <h5 className='header-line'>Why Become a Cicerone?</h5>
                 <p className='text-center'>Becoming a Cicerone is more then just tasting beer and knowing what hop or malt was used. It is the ability to give the best quality beer and experince at every service occasion.</p>
             </div>
-            <div className='container'>
+            <div className='container mb-5 '>
                 <h5 className='header-line'>Levels of Cicerone</h5>
-                <CardGroup className='container'>
+                <CardGroup className='container mt-3'>
                     <Card>
                         <CardImg top width='100%' src={beerOpener} alt='opening beer' />
                         <CardBody>
