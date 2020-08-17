@@ -8,10 +8,10 @@ function Footer() {
                     <div className="col-5 col-sm-2 offset-1">
                         <h5>Links</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Study Material</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/study-material">Study Material</a></li>
+                            <li><a href="/about-us">About</a></li>
+                            <li><a href="/contact-us">Contact</a></li>
                         </ul>
                     </div>
                     <div className="col-5 col-sm-4 text-center">
