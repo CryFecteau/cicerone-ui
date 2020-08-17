@@ -22,19 +22,19 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-                <Jumbotron fluid>
+                <Jumbotron fluid id='header'>
                     <div className="container">
                         <div className="row">
-                            <div className="col">
+                            <div className="col text-right">
                                 <h1>Cicerone Study Guide</h1>
+                                <p>More Then Just Beer</p>
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
 
-                <Navbar classname='navbar-dark' sticky="top" expand="md">
+                <Navbar light classname='navbar' sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto " href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>

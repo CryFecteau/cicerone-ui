@@ -1,38 +1,47 @@
-.App {
+:root{
+  --main-bg-color:rgb(202, 136, 51);
+}
+#header{
+  background-image: url('./assets/images/beerGlass.jpg');
+  background-size: cover;
+  background-color: #000000;
+  margin: 0;
+}
+#header h1{
+  color: #ffffff;
+  text-shadow: 2px 2px #747171;
+}
+#header p{
+  color: #f1cf0a;
+}
+.navbar{
+  background-color: var(--main-bg-color);
+}
+.site-footer{
+  background-color: var(--main-bg-color);
+}
+.site-footer a{
+  color: #fff4b6;
+}
+.header-line{
+  overflow: hidden;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-line::before, .header-line::after{
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+.header-line::before{
+  right: 0.5em;
+  margin-left: -50%;
+}
+.header-line::after{
+  left: 0.5em;
+  margin-right: -50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

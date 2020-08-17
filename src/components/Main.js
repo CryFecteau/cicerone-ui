@@ -16,6 +16,7 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route path='/home' component={HomePage} />
+                    <Home />
                 </Switch>
                 <Footer />
             </div>
