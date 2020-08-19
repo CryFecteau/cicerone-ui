@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/cicerone-ui/static/css/main.d1ed766f.chunk.css",
-    "main.js": "/cicerone-ui/static/js/main.90fc23fc.chunk.js",
-    "main.js.map": "/cicerone-ui/static/js/main.90fc23fc.chunk.js.map",
+    "main.css": "/cicerone-ui/static/css/main.2f12e563.chunk.css",
+    "main.js": "/cicerone-ui/static/js/main.348adf5f.chunk.js",
+    "main.js.map": "/cicerone-ui/static/js/main.348adf5f.chunk.js.map",
     "runtime-main.js": "/cicerone-ui/static/js/runtime-main.1822d019.js",
     "runtime-main.js.map": "/cicerone-ui/static/js/runtime-main.1822d019.js.map",
-    "static/css/2.b4e040ed.chunk.css": "/cicerone-ui/static/css/2.b4e040ed.chunk.css",
-    "static/js/2.513391e2.chunk.js": "/cicerone-ui/static/js/2.513391e2.chunk.js",
-    "static/js/2.513391e2.chunk.js.map": "/cicerone-ui/static/js/2.513391e2.chunk.js.map",
+    "static/css/2.0ce9332a.chunk.css": "/cicerone-ui/static/css/2.0ce9332a.chunk.css",
+    "static/js/2.716cbed0.chunk.js": "/cicerone-ui/static/js/2.716cbed0.chunk.js",
+    "static/js/2.716cbed0.chunk.js.map": "/cicerone-ui/static/js/2.716cbed0.chunk.js.map",
     "index.html": "/cicerone-ui/index.html",
-    "precache-manifest.996dbc3713e99818d7e7b317b8f82e27.js": "/cicerone-ui/precache-manifest.996dbc3713e99818d7e7b317b8f82e27.js",
+    "precache-manifest.2c1b81978e98cca5a57984cd1b48a04e.js": "/cicerone-ui/precache-manifest.2c1b81978e98cca5a57984cd1b48a04e.js",
     "service-worker.js": "/cicerone-ui/service-worker.js",
-    "static/css/2.b4e040ed.chunk.css.map": "/cicerone-ui/static/css/2.b4e040ed.chunk.css.map",
-    "static/css/main.d1ed766f.chunk.css.map": "/cicerone-ui/static/css/main.d1ed766f.chunk.css.map",
-    "static/js/2.513391e2.chunk.js.LICENSE.txt": "/cicerone-ui/static/js/2.513391e2.chunk.js.LICENSE.txt",
+    "static/css/2.0ce9332a.chunk.css.map": "/cicerone-ui/static/css/2.0ce9332a.chunk.css.map",
+    "static/css/main.2f12e563.chunk.css.map": "/cicerone-ui/static/css/main.2f12e563.chunk.css.map",
+    "static/js/2.716cbed0.chunk.js.LICENSE.txt": "/cicerone-ui/static/js/2.716cbed0.chunk.js.LICENSE.txt",
     "static/media/barley.jpg": "/cicerone-ui/static/media/barley.c4cbb566.jpg",
     "static/media/beer.jpg": "/cicerone-ui/static/media/beer.6dfb274c.jpg",
-    "static/media/App.css": "/cicerone-ui/static/media/beerGlass.85ebe3c1.jpg",
     "static/media/beerOpener.jpg": "/cicerone-ui/static/media/beerOpener.855d6ee9.jpg",
     "static/media/femaleServer.jpg": "/cicerone-ui/static/media/femaleServer.64771251.jpg",
     "static/media/font-awesome.css": "/cicerone-ui/static/media/fontawesome-webfont.fee66e71.woff",
@@ -30,9 +29,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1822d019.js",
-    "static/css/2.b4e040ed.chunk.css",
-    "static/js/2.513391e2.chunk.js",
-    "static/css/main.d1ed766f.chunk.css",
-    "static/js/main.90fc23fc.chunk.js"
+    "static/css/2.0ce9332a.chunk.css",
+    "static/js/2.716cbed0.chunk.js",
+    "static/css/main.2f12e563.chunk.css",
+    "static/js/main.348adf5f.chunk.js"
   ]
 }
