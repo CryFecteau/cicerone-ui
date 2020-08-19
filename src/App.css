@@ -2,8 +2,6 @@
   --main-bg-color:rgb(202, 136, 51);
 }
 #header{
-  background-image: url('./assets/images/beerGlass.jpg');
-  background-size: cover;
   background-color: #000000;
   margin: 0;
 }
