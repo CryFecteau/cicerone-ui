@@ -43,7 +43,7 @@ class Header extends Component {
                 <Jumbotron fluid id='header'>
                     <div className='container'>
                         <div className='row'>
-                            <div className='col text-right'>
+                            <div className='col text-right text-md-center'>
                                 <h1>Cicerone Study Guide</h1>
                                 <p>More Then Just Beer</p>
                             </div>
@@ -51,7 +51,7 @@ class Header extends Component {
                     </div>
                 </Jumbotron>
 
-                <Navbar light classname='navbar' sticky='top' expand='md'>
+                <Navbar dark classname='navbar' sticky='top' expand='md'>
                     <div className='container'>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
@@ -78,7 +78,7 @@ class Header extends Component {
                                 </NavItem>
                             </Nav>
                             <span className='navbar-text ml-auto'>
-                                <Button outline onClick={this.toggleModal}><i className='fa fa-sign-in fa-lg' /> Login</Button>
+                                <Button className='btn btn-outline-dark' onClick={this.toggleModal}><i className='fa fa-sign-in fa-lg' /> Login</Button>
                             </span>
                         </Collapse>
                     </div>
