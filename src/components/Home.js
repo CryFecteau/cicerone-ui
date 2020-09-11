@@ -34,8 +34,8 @@ function Home() {
             <div className='container mb-5 '>
                 <h4 className='header-line mb-5'>Levels of Cicerone</h4>
                 <CardGroup className='container mt-3'>
-                    <Card className='m-2 cards'>
-                        <CardHeader className='text-center'>
+                    <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                        <CardHeader style={{ borderRadius: '10px 10px 0 0' }} className='text-center'>
                             <h5>Certified Beer Server</h5>
                             <CardSubtitle className='text-center'>Level 1</CardSubtitle>
                         </CardHeader>
@@ -45,8 +45,8 @@ function Home() {
                             <Link className='btn btn-outline-info mt-auto' to='beer-server'>Learn More</Link>
                         </CardBody>
                     </Card>
-                    <Card className='m-2 cards'>
-                        <CardHeader className='text-center'>
+                    <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                        <CardHeader style={{ borderRadius: '10px 10px 0 0' }} className='text-center'>
                             <h5>Certified Cicerone</h5>
                             <CardSubtitle className='text-center'>Level 2</CardSubtitle>
                         </CardHeader>
@@ -56,8 +56,8 @@ function Home() {
                             <Link className='btn btn-outline-info mt-auto' to='cicerone'>Learn More</Link>
                         </CardBody>
                     </Card>
-                    <Card className='m-2 cards'>
-                        <CardHeader className='text-center'>
+                    <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                        <CardHeader style={{ borderRadius: '10px 10px 0 0' }} className='text-center'>
                             <h5>Advanced Cicerone</h5>
                             <CardSubtitle className='text-center'>Level 3</CardSubtitle>
                         </CardHeader>
@@ -67,8 +67,8 @@ function Home() {
                             <Link className='btn btn-outline-info mt-auto' to='advanced-cicerone'>Learn More</Link>
                         </CardBody>
                     </Card>
-                    <Card className='m-2 cards'>
-                        <CardHeader className='text-center'>
+                    <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                        <CardHeader style={{ borderRadius: '10px 10px 0 0' }} className='text-center'>
                             <h5>Master Cicerone</h5>
                             <CardSubtitle className='text-center'>Level 4</CardSubtitle>
                         </CardHeader>

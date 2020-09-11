@@ -25,11 +25,17 @@ export default function StudyMaterial() {
             </div>
 
             <Tabs className='mt-4' defaultIndex={0}>
-                <TabList>
+                <TabList className='d-none d-sm-block'>
                     <Tab><h6>Beer Server</h6></Tab>
                     <Tab><h6>Cicerone</h6></Tab>
                     <Tab><h6>Advanced Cicerone</h6></Tab>
                     <Tab><h6>Master Cicerone</h6></Tab>
+                </TabList>
+                <TabList className='d-sm-none'>
+                    <Tab><h6>Lvl. 1</h6></Tab>
+                    <Tab><h6>Lvl. 2</h6></Tab>
+                    <Tab><h6>Lvl. 3</h6></Tab>
+                    <Tab><h6>Lvl. 4</h6></Tab>
                 </TabList>
                 <TabPanel>
                     <div className='text-center mt-4'>
@@ -52,8 +58,8 @@ export default function StudyMaterial() {
                     <div className='text-center'>10% Completed</div>
                     <Progress animated striped color='info' value={10} />
                     <CardGroup className='container  mb-5'>
-                        <Card className='m-2 cards cards cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards cards cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Beer Server Manual</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={femaleServer} alt='female beer server' />
@@ -63,8 +69,8 @@ export default function StudyMaterial() {
                                 <Link className='btn btn-outline-info mt-auto' to='content'>Study</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2 cards cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Beer Server Flashcards</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={servingBeer} alt='serving beer' />
@@ -74,8 +80,8 @@ export default function StudyMaterial() {
                                 <Link className='btn btn-outline-info mt-auto' to='content'>Review</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2 cards cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Beer Server Quiz</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={bottle} alt='beer bottles' />
@@ -106,8 +112,8 @@ export default function StudyMaterial() {
                     <div className='text-center'>5% Completed</div>
                     <Progress animated striped color='info' value={5} />
                     <CardGroup className='container  mb-5'>
-                        <Card className='m-2 cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Cicerone Manual</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={pouring} alt='pouring pairing' />
@@ -117,8 +123,8 @@ export default function StudyMaterial() {
                                 <Link className='btn btn-outline-info mt-auto' to='content'>Study</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2 cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Cicerone Flashcards</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={tasting} alt='tasting beer' />
@@ -128,8 +134,8 @@ export default function StudyMaterial() {
                                 <Link className='btn btn-outline-info mt-auto' to='content'>Review</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2 cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Cicerone Quiz</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={taps} alt='beer taps' />
@@ -161,8 +167,8 @@ export default function StudyMaterial() {
                     <div className='text-center'>0% Completed</div>
                     <Progress animated striped color='info' value={0} />
                     <CardGroup className='container  mb-5'>
-                        <Card className='m-2 cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Advanced Cicerone Manual</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={tastingTable} alt='beer tasting' />
@@ -172,8 +178,8 @@ export default function StudyMaterial() {
                                 <Link className='btn btn-outline-info mt-auto' to='content'>Study</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2 cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Advanced Cicerone Flashcards</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={beer} alt='glases of beer' />
@@ -183,8 +189,8 @@ export default function StudyMaterial() {
                                 <Link className='btn btn-outline-info mt-auto' to='content'>Review</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2 cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Advanced Cicerone Quiz</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={pairing} alt='pairing beer' />
@@ -217,8 +223,8 @@ export default function StudyMaterial() {
                     <div className='text-center'>0% Completed</div>
                     <Progress animated striped color='info' value={0} />
                     <CardGroup className='container  mb-5'>
-                        <Card className='m-2 cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Master Cicerone Manual</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={barley} alt='beer tasting' />
@@ -228,8 +234,8 @@ export default function StudyMaterial() {
                                 <Link className='btn btn-outline-info mt-auto' to='content'>Study</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2 cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Master Cicerone Flashcards</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={hops} alt='serving beer' />
@@ -239,8 +245,8 @@ export default function StudyMaterial() {
                                 <Link className='btn btn-outline-info mt-auto' to='content'>Review</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2 cards'>
-                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                        <Card style={{ borderRadius: '10px' }} className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)', borderRadius: '10px 10px 0 0' }} className='text-center'>
                                 <h5>Master Cicerone Quiz</h5>
                             </CardHeader>
                             <CardImg className='p-2' top width='100%' src={pairing} alt='pairing beer' />
