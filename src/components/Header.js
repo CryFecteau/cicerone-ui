@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-    Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem, Jumbotron,
+    Nav, Navbar, NavbarToggler, Collapse, NavItem, Jumbotron,
     Button, Modal, ModalHeader, ModalBody,
     Form, FormGroup, Input, Label
 } from 'reactstrap';

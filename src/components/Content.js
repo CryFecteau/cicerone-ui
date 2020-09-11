@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 export default function Content() {
     return (
-        <div className='container mt-5 mb-5'>
-            <Card>
+        <div className='container'>
+            <Card className='content'>
                 <CardBody>
                     <CardTitle className='text-center'>COMING SOON!</CardTitle>
                     <CardText className='text-center'>Thank you for your interest in our study materials, we are currently working hard to give you the best experince.</CardText>

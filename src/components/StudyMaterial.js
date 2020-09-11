@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs, Tab, TabList, TabPanel } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css';
-import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody, Progress } from 'reactstrap';
+import { Card, CardImg, CardHeader, CardText, CardGroup, CardSubtitle, CardBody, Progress } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import bottle from '../assets/images/beerOpener.jpg';
 import taps from '../assets/images/taps.jpg';
@@ -23,16 +23,17 @@ export default function StudyMaterial() {
                     Study Material
             </h3>
             </div>
+
             <Tabs className='mt-4' defaultIndex={0}>
                 <TabList>
-                    <Tab>Beer Server</Tab>
-                    <Tab>Cicerone</Tab>
-                    <Tab>Advanced Cicerone</Tab>
-                    <Tab>Master Cicerone</Tab>
+                    <Tab><h6>Beer Server</h6></Tab>
+                    <Tab><h6>Cicerone</h6></Tab>
+                    <Tab><h6>Advanced Cicerone</h6></Tab>
+                    <Tab><h6>Master Cicerone</h6></Tab>
                 </TabList>
                 <TabPanel>
                     <div className='text-center mt-4'>
-                        <h3>Beer Server</h3>
+                        <h2>Beer Server</h2>
                         <p>Level 1</p>
                     </div>
                     <div>
@@ -51,38 +52,44 @@ export default function StudyMaterial() {
                     <div className='text-center'>10% Completed</div>
                     <Progress animated striped color='info' value={10} />
                     <CardGroup className='container  mb-5'>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={femaleServer} alt='female beer server' />
+                        <Card className='m-2 cards cards cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Beer Server Manual</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={femaleServer} alt='female beer server' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Beer Server Manual</CardTitle>
                                 <CardSubtitle>Level 1</CardSubtitle>
                                 <CardText>Gain the knowledge to pass the Beer Server Exam</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Study</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Study</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={servingBeer} alt='serving beer' />
+                        <Card className='m-2 cards cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Beer Server Flashcards</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={servingBeer} alt='serving beer' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Beer Server Flashcards</CardTitle>
                                 <CardSubtitle>Level 1</CardSubtitle>
                                 <CardText>Prep and Review with Beer Server Flashcards</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Review</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Review</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={bottle} alt='beer bottles' />
+                        <Card className='m-2 cards cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Beer Server Quiz</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={bottle} alt='beer bottles' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Beer Server Quiz</CardTitle>
                                 <CardSubtitle>Level 1</CardSubtitle>
                                 <CardText>Test your knowledge and take the Beer Server Quiz</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Start</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Start</Link>
                             </CardBody>
                         </Card>
                     </CardGroup>
                 </TabPanel>
                 <TabPanel>
                     <div className='text-center mt-4'>
-                        <h3>Cicerone</h3>
+                        <h2>Cicerone</h2>
                         <p>Level 2</p>
                     </div>
                     <div>
@@ -99,38 +106,44 @@ export default function StudyMaterial() {
                     <div className='text-center'>5% Completed</div>
                     <Progress animated striped color='info' value={5} />
                     <CardGroup className='container  mb-5'>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={pouring} alt='pouring pairing' />
+                        <Card className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Cicerone Manual</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={pouring} alt='pouring pairing' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Cicerone Manual</CardTitle>
                                 <CardSubtitle>Level 2</CardSubtitle>
                                 <CardText>Gain the knowledge to pass the Certified Cicerone Exam</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Study</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Study</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={tasting} alt='tasting beer' />
+                        <Card className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Cicerone Flashcards</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={tasting} alt='tasting beer' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Cicerone Flashcards</CardTitle>
                                 <CardSubtitle>Level 2</CardSubtitle>
                                 <CardText>Prep and Review with Cicerone Flashcards</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Review</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Review</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={taps} alt='beer taps' />
+                        <Card className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Cicerone Quiz</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={taps} alt='beer taps' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Cicerone Quiz</CardTitle>
                                 <CardSubtitle>Level 2</CardSubtitle>
                                 <CardText>Test your knowledge and take the Cicerone Quiz</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Start</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Start</Link>
                             </CardBody>
                         </Card>
                     </CardGroup>
                 </TabPanel>
                 <TabPanel>
                     <div className='text-center mt-4'>
-                        <h3>Advanced Cicerone</h3>
+                        <h2>Advanced Cicerone</h2>
                         <p>Level 3</p>
                     </div>
                     <div>
@@ -148,38 +161,44 @@ export default function StudyMaterial() {
                     <div className='text-center'>0% Completed</div>
                     <Progress animated striped color='info' value={0} />
                     <CardGroup className='container  mb-5'>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={tastingTable} alt='beer tasting' />
+                        <Card className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Advanced Cicerone Manual</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={tastingTable} alt='beer tasting' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Advanced Cicerone Manual</CardTitle>
                                 <CardSubtitle>Level 3</CardSubtitle>
                                 <CardText>Gain the knowledge to pass the Advanced Cicerone Exam</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Study</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Study</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={beer} alt='glases of beer' />
+                        <Card className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Advanced Cicerone Flashcards</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={beer} alt='glases of beer' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Advanced Cicerone Flashcards</CardTitle>
                                 <CardSubtitle>Level 3</CardSubtitle>
                                 <CardText>Prep and Review with Advanced Cicerone Flashcards</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Review</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Review</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={pairing} alt='pairing beer' />
+                        <Card className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Advanced Cicerone Quiz</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={pairing} alt='pairing beer' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Advanced Cicerone Quiz</CardTitle>
                                 <CardSubtitle>Level 3</CardSubtitle>
                                 <CardText>Test your knowledge and take the Advanced Cicerone Quiz</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Start</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Start</Link>
                             </CardBody>
                         </Card>
                     </CardGroup>
                 </TabPanel>
                 <TabPanel>
                     <div className='text-center mt-4'>
-                        <h3>Master Cicerone</h3>
+                        <h2>Master Cicerone</h2>
                         <p>Level 4</p>
                     </div>
                     <div>
@@ -198,31 +217,37 @@ export default function StudyMaterial() {
                     <div className='text-center'>0% Completed</div>
                     <Progress animated striped color='info' value={0} />
                     <CardGroup className='container  mb-5'>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={barley} alt='beer tasting' />
+                        <Card className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Master Cicerone Manual</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={barley} alt='beer tasting' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Master Cicerone Manual</CardTitle>
                                 <CardSubtitle>Level 4</CardSubtitle>
                                 <CardText>Gain the knowledge to pass the Master Cicerone Exam</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Study</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Study</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={hops} alt='serving beer' />
+                        <Card className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Master Cicerone Flashcards</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={hops} alt='serving beer' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Master Cicerone Flashcards</CardTitle>
                                 <CardSubtitle>Level 4</CardSubtitle>
                                 <CardText>Prep and Review with Master Cicerone Flashcards</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Review</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Review</Link>
                             </CardBody>
                         </Card>
-                        <Card className='m-2'>
-                            <CardImg top width='100%' src={pairing} alt='pairing beer' />
+                        <Card className='m-2 cards'>
+                            <CardHeader style={{ backgroundColor: 'rgb(230, 177, 64)' }} className='text-center'>
+                                <h5>Master Cicerone Quiz</h5>
+                            </CardHeader>
+                            <CardImg className='p-2' top width='100%' src={pairing} alt='pairing beer' />
                             <CardBody className='d-flex flex-column'>
-                                <CardTitle className='text-center'>Master Cicerone Quiz</CardTitle>
                                 <CardSubtitle>Level 4</CardSubtitle>
                                 <CardText>Test your knowledge and take the Master Cicerone Quiz</CardText>
-                                <Button className='mt-auto' outline color='info'><Link to='content'>Start</Link></Button>
+                                <Link className='btn btn-outline-info mt-auto' to='content'>Start</Link>
                             </CardBody>
                         </Card>
                     </CardGroup>

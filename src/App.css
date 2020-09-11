@@ -38,7 +38,7 @@
   text-align: center;
 }
 .header-line::before, .header-line::after{
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
   content: "";
   display: inline-block;
   height: 1px;
@@ -66,6 +66,12 @@
 }
 #tabs:hover{
   cursor: pointer;
+}
+.content{
+  margin: 5rem;
+  -webkit-box-shadow: -15px -3px 24px -14px rgba(0,0,0,0.61);
+  -moz-box-shadow: -15px -3px 24px -14px rgba(0,0,0,0.61);
+  box-shadow: -15px -3px 24px -14px rgba(0,0,0,0.61);   
 }
 /* width */
 ::-webkit-scrollbar {

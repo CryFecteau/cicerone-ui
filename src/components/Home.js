@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Card, Button, CardImg, CardHeader, CardText, CardGroup,
+    Card, CardImg, CardHeader, CardText, CardGroup,
     CardSubtitle, CardBody
 } from 'reactstrap';
 import servingBeer from '../assets/images/servingBeer.jpg';
@@ -17,7 +17,7 @@ function Home() {
                 <h4 className='header-line'>What is a Cicerone?</h4>
                 <div className='media mt-5'>
                     <div className='media-body'>
-                        <p className='text-center pt-5'>The word Cicerone (sis-uh-rohn) designates hospitality professionals with proven experience in selecting, acquiring and serving today's wide range of beers.</p>
+                        <p className='text-center pt-md-5'>The word Cicerone (sis-uh-rohn) designates hospitality professionals with proven experience in selecting, acquiring and serving today's wide range of beers.</p>
                     </div>
                     <img className='d-none d-md-block ml-3 home-img' src={pouring} alt='beer tasting' />
                 </div>
@@ -27,7 +27,7 @@ function Home() {
                 <div className='media mt-5'>
                     <img className='d-none d-md-block mr-3 home-img' src={femaleServer} alt='serving beer' />
                     <div className='media-body'>
-                        <p className='text-center pt-5'>Becoming a Cicerone is more then just tasting beer and knowing what hop or malt was used. It is the ability to give the best quality beer and experince at every service occasion.</p>
+                        <p className='text-center pt-md-5'>Becoming a Cicerone is more then just tasting beer and knowing what hop or malt was used. It is the ability to give the best quality beer and experince at every service occasion.</p>
                     </div>
                 </div>
             </div>
