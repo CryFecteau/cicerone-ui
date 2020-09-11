@@ -44,8 +44,10 @@ class Header extends Component {
                     <div className='container'>
                         <div className='row'>
                             <div className='col text-right text-md-center'>
-                                <h1>Cicerone Study Guide</h1>
-                                <p>More Then Just Beer</p>
+                                <a href='/cicerone-ui'>
+                                    <h1>Cicerone Study Guide</h1>
+                                    <p>More Then Just Beer</p>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -84,7 +86,7 @@ class Header extends Component {
                     </div>
                 </Navbar>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-                    <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
+                    <ModalHeader classname='modal-header' toggle={this.toggleModal}>Login</ModalHeader>
                     <ModalBody>
                         <Form onSubmit={this.handleLogin}>
                             <FormGroup>

@@ -16,6 +16,14 @@
 #header p{
   color: #f1cf0a;
 }
+#header a{
+  text-decoration: none;
+}
+.cards{
+  -webkit-box-shadow: -15px -3px 24px -14px rgba(0,0,0,0.61);
+  -moz-box-shadow: -15px -3px 24px -14px rgba(0,0,0,0.61);
+  box-shadow: -15px -3px 24px -14px rgba(0,0,0,0.61);
+}
 .navbar{
   background-color: var(--main-bg-color);
 }
@@ -45,6 +53,16 @@
 .header-line::after{
   left: 0.5em;
   margin-right: -50%;
+}
+.home-img{
+  height: 15rem;
+  border-radius: 5px;
+  -webkit-box-shadow: -15px -3px 24px -14px rgba(0,0,0,0.61);
+  -moz-box-shadow: -15px -3px 24px -14px rgba(0,0,0,0.61);
+  box-shadow: -15px -3px 24px -14px rgba(0,0,0,0.61);   
+}
+.modal-header{
+  background-color: rgb(199, 199, 199);;
 }
 #tabs:hover{
   cursor: pointer;
